@@ -35,7 +35,8 @@
   },
   "scripts": {
     "build": "browserify test/index.js | uglifyjs -cm > bundle.js",
-    "build-extension": "browserify extension/index.js | uglifyjs -cm > extension/bundle.js",
+    "build-extension": "browserify extension/index.js > extension/bundle.js",
+    "build-extension-min": "browserify extension/index.js | uglifyjs -cm > extension/bundle.min.js",
     "start": "budo test/index.js:bundle.js --live",
     "test": "semistandard"
   },
