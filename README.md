@@ -1,4 +1,9 @@
-# three-line-2d
+# three-line-2d extended
+
+global scoped bundle from original repo without three js dependency packed
+
+used for simple script tag embedding see example in ./extension folder
+
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
