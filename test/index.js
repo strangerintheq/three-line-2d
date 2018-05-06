@@ -1,4 +1,4 @@
-global.THREE = require('three');
+// global.THREE = THREE;
 const createLoop = require('raf-loop');
 const createApp = require('./app');
 
